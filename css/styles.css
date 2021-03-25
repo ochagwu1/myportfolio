@@ -1,4 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+.my-header{
+    width: 100%;
+    display: flex;
+   flex-direction: row;
+    padding: 3ch;
+    height: 10ch;
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);
+}
+.logo{
+    font-weight: 500;
+    width: 100%;
+    margin-top: -10px;
+    margin-left:3ch ;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5ch;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  
+}
+li{
+    list-style: none;
+    padding-right: 3ch;
+    font-weight: 400;
+}
+li a{
+    display: block;
+    text-align: center;
+}
 
+li a:hover{
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.container{
+    width: 100%;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:2ch;
+    width: 90%;
+    margin: 5ch auto 0 auto;
+}
+.intro{
+max-width: 42ch;
+line-height: 1.9rem;
+padding: 2ch;
+}
+.profile-pix{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    margin-left: 53ch;
+}
+button{
+    width: 15ch;
+    height: 5ch;
+    border: 1px solid #000;
+    border-radius: 0.5ch;
+}
+.learn{
+    background-color: #000;
+    color: #fff;
+}
+.learn a{
+    color: #fff;
+}
+.touch{
+    margin-right: 3ch;
+}
+.about{
+    margin-top: 10ch;
+    
+}
+.writeup{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3ch 9.6ch 18ch 9.6ch;
+}
+.writeup p{
+    max-width: 128ch;
+    text-align: center;
+    margin: 0 auto;
+}
 img{
     border-radius: 50%;
+}
+.writeup2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.eru{
+    max-width: 28ch;
+    max-height: 50ch;
+    display:flex;
+    justify-content:center;
+    justify-items: center;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+    line-height: 1.5rem;
+    z-index: 1;
+    position: relative;
+    bottom: 120px;
+    background-color: #fff;
+    padding: 3ch;
+    border-radius: 1.5ch;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.7);
+}
+.eru p{
+ margin-top:0px;
+}
+.eru h4{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 3ch;
+}
+.reach-me1{
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+}
+.reach-me2{
+display: flex;
+flex-direction: row;
+
+margin: 0 auto;
+}
+.phone{
+    
+    width: 45ch;
+    height: 15ch;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.7);
+    border: 1px solid #000;
+    margin-right: 3ch;
+    padding:5ch 5ch 3ch 5ch;
+}
+.ghub{
+    width: 45ch;
+    height: 15ch;
+    margin-left: 3ch;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.7);
+    border: 1px solid #000;
+    padding:5ch 13ch 3ch 13ch;
+}
+.tweet{
+    width: 45ch;
+    height: 15ch;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.7);
+    border: 1px solid #000;
+    margin-left: 3ch;
+    margin-top: 6ch;
+    padding:5ch 13ch 3ch 13ch;
+}
+.mail{
+    width: 45ch;
+    height: 15ch;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.7);
+    border: 1px solid #000;
+    margin-right: 3ch;
+    margin-top: 6ch;
+    padding:5ch 5ch 3ch 5ch;
+}
+footer{
+    background-color: #000;
+    color: #fff;
+   
+}
+.footer-b{
+    margin-top: 10ch;
+    height: 10ch;
+    padding: 3ch;
 }
